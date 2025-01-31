@@ -1,4 +1,4 @@
-# Newsletter Signup API (mailchimp) 🚀
+# Newsletter Signup API 🚀
 
 ## Overview 📝
 
