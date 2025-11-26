@@ -1,10 +1,10 @@
-# Newsletter Signup API 🚀
+# Newsletter Signup API
 
-## Overview 📝
+## Overview
 
 A Node.js Express API that handles newsletter signups using the MailChimp Marketing API. This service provides a simple way to manage newsletter subscriptions with proper error handling and input validation.
 
-## Features ✨
+## Features
 
 - **JSON-based RESTful API** endpoints
 - **Input validation** and sanitization
@@ -12,13 +12,13 @@ A Node.js Express API that handles newsletter signups using the MailChimp Market
 - **MailChimp integration**
 - **Environment-based** configuration
 
-## Prerequisites 📋
+## Prerequisites
 
 - Node.js (v14 or higher)
 - npm or yarn
 - MailChimp account with API credentials
 
-## Installation 🛠️
+## Installation
 
 ### 1. Clone the repository
 
@@ -44,7 +44,7 @@ MAIL_CHIMP_SERVER=your_mailchimp_server_prefix
 PORT=3000 # Optional, defaults to 3000
 ```
 
-## Configuration ⚙️
+## Configuration
 
 The application requires the following environment variables:
 
@@ -55,7 +55,7 @@ The application requires the following environment variables:
 | `MAIL_CHIMP_SERVER` | Your MailChimp server prefix (e.g., 'us1') | Yes      |
 | `PORT`              | Server port number (defaults to 3000)      | No       |
 
-## Usage 📚
+## Usage
 
 ### Starting the Server
 
@@ -116,7 +116,7 @@ Subscribes a new user to the newsletter.
 }
 ```
 
-## Error Handling 🚨
+## Error Handling
 
 The API includes error handling for:
 
@@ -125,7 +125,7 @@ The API includes error handling for:
 - Server errors
 - Missing environment variables
 
-## Development 💻
+## Development
 
 ### Project Structure
 
@@ -139,6 +139,6 @@ The API includes error handling for:
 └── app.js           # App Entry
 ```
 
-## License 📄
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
